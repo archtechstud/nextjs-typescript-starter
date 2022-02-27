@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "willstakayama.vscode-nextjs-snippets",
+    "stevencl.adddoccomments",
+    "atishay-jain.all-autocomplete",
+    "formulahendry.auto-close-tag",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "ms-azuretools.vscode-docker",
+    "k--kato.intellij-idea-keybindings",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "SonarSource.sonarlint-vscode"
+  ]
+}

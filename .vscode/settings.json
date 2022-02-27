@@ -1,8 +1,26 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true,
+    "source.fixAll.stylelint": true
   },
-
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.exclude": {
+    ".yarnrc": true,
+    ".jest-test-results.json": true,
+    "commitlint.config.js": true,
+    "coverage": true,
+    "node_modules/": false,
+    "packages/**/dist/": true,
+    "packages/**/node_modules/": true,
+    "yarn.lock": true
+  }
 }
