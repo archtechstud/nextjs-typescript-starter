@@ -1,0 +1,10 @@
+/build
+/node_modules
+/logs
+/public/
+/.next
+/.vscode
+/.husky
+commitlint.config.js
+lint-staged.config.js
+next.config.js
