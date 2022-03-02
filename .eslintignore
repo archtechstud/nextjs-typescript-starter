@@ -1,0 +1,15 @@
+/scripts
+/cypress
+/config
+/node_modules
+/public
+/src/assets
+/build
+/logs
+/public/
+/.next
+/.vscode
+/.husky
+commitlint.config.js
+lint-staged.config.js
+next.config.js
