@@ -33,4 +33,30 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-# Hello World!
+## How to check bundle sizes
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+
+```bash
+npx create-next-app --example analyze-bundles analyze-bundles-app
+# or
+yarn create next-app --example analyze-bundles analyze-bundles-app
+```
+
+### Analyze webpack output
+
+To analyze your webpack output, invoke the following command:
+
+```bash
+npm run analyze
+# or
+yarn analyze
+```
+
+Once the build is completed, you can inspect the bundle by running:
+
+```bash
+npm run serve
+# or
+yarn serve
+```
