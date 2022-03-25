@@ -4,10 +4,13 @@ import Typography from '@mui/material/Typography';
 import type { NextPage } from 'next';
 import * as React from 'react';
 import { Copyright, Link, ProTip } from '../src/components';
+import Cat from '../svgs/cat.svg';
 
 const Home: NextPage = () => {
   return (
     <Container maxWidth="lg">
+      <Typography>SVG Cat!</Typography>
+      <Cat />
       <Box
         sx={{
           my: 4,
